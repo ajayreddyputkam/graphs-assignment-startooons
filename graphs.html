@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="graphs.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main-bg-container">
+        <div class="input-main-container">
+            <h1 class="enter-values-heading">Enter Values</h1>
+            <div class="input-elements-container">
+                <input type="text" placeholder="Input Value" class="input-element" id="inputValue" />
+                <input type="text" placeholder="Max Value" class="input-element" id="maxValue" />
+            </div>
+        </div>
+        <h1 class="graphs-heading">Graphs</h1>
+        <div class="graphs-main-container">
+            <div class="level-1-container">
+                <div class="vertical-bar-graph">
+                    <div class="vertical-bar-graph-inner" id="verticalBar"></div>
+                </div>
+                <p class="vertical-bar-graph-percentage" id="verticalBarPercentage"></p>
+                <p class="level-1-text">Level 1</p>
+            </div>
+            <div class="pie-chart-main-container">
+                <div class="pie-chart-container" id="pieChart">
+                    <p class="pie-percentage" id="pieChartPercentage">70%</p>
+                </div>
+                <p class="level-2-text">Level 2</p>
+            </div>
+            <div class="level-3-container">
+                <div class="vertical-Gradient" id="verticalGradientBar">
+                </div>
+                <p class="vertical-gradient-percentage" id="verticalGradientPercentage"></p>
+                <p class="level-3-text">Level 3</p>
+            </div>
+        </div>
+    </div>
+    <script src="graphs.js" type="text/javascript"></script>
+</body>
+
+</html>
